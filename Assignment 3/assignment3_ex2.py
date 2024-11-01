@@ -7,6 +7,7 @@ def generateSentence(characters,n,str):
         generateSentence(characters,n-1,str+i)
 
 characters=["a","b","c"]
-n=2
+n=3
+
 
 generateSentence(characters,n,"")
